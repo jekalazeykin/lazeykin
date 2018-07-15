@@ -2,6 +2,7 @@
   min-width: 1024px;
   margin: 0 auto;
   background-color: #282d33;
+  font-family: 'Arial', sans-serif;
 }
 .header {
   background-image: url(../images/background.jpg);
@@ -85,8 +86,19 @@
 
 .main__about-me, .main__about-photo, .main__about-info {
   margin: 20px 30px 0;
+  width: 33%;
+}
+.main__about-photo {
+  text-align: center;
 }
 
+.about, .info{
+  font-size: 120%;
+}
+
+.info {
+  line-height: 1.5;
+}
 .main__resume {
   display: flex;
 }
@@ -104,6 +116,11 @@
   flex-wrap: wrap;
 }
 
+.overview {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 .main__portfolio-one {
   width: 270px;
   height: 400px;
@@ -111,7 +128,20 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+.main__portfolio-two {
+  width: 270px;
+  height: 400px;
+  background-image: url(../images/moviehub1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main__portfolio-three {
+  width: 270px;
+  height: 400px;
+  background-image: url(../images/jsProject.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .main__link1 {
   width: 270px;
   height: 400px;
@@ -146,6 +176,16 @@
 
 .icons-container__icon:hover {
   fill: #000;
+}
+
+.site {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.main__resume-part1, .main__resume-part2 {
+  width: 50vw;
 }
 
 /* slider */

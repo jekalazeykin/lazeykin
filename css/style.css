@@ -142,6 +142,13 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.main__portfolio-four {
+  width: 270px;
+  height: 342px;
+  background-image: url(../images/catalog1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .main__link1 {
   width: 270px;
   height: 400px;

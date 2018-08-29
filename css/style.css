@@ -130,16 +130,16 @@
 }
 .main__portfolio-two {
   width: 270px;
-  height: 400px;
+  height: 340px;
   background-image: url(../images/moviehub1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .main__portfolio-three {
   width: 270px;
-  height: 400px;
-  background-image: url(../images/jsProject.jpg);
-  background-size: contain;
+  height: 340px;
+  background-image: url(../images/productSPA.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .main__portfolio-four {

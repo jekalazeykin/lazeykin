@@ -149,6 +149,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main__portfolio-five {
+  width: 270px;
+  height: 340px;
+  background-image: url(../images/store.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .main__link1 {
   width: 270px;
   height: 400px;
